@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Implicite_intent_activity">
+        <ImageButton
+            android:id="@+id/ibtnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ibtnBack"
+            app:srcCompat="@android:drawable/ic_menu_revert" />
+    <EditText
+        android:id="@+id/edtxtUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Website URL" />
+
+    <Button
+        android:id="@+id/btnUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openwebsite"
+        android:text="open website" />
+
+    <EditText
+        android:id="@+id/edtxtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Enter Phone No." />
+
+    <Button
+        android:id="@+id/btnPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="opendailpad"
+        android:text="Open Dial Pad" />
+
+    <EditText
+        android:id="@+id/edtxtLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Location Name" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="searchmap"
+        android:text="Search map" />
+
+    <EditText
+        android:id="@+id/edtxtMind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="What's on your mind?" />
+
+    <Button
+        android:id="@+id/btnshare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share text" />
+
+</LinearLayout>
